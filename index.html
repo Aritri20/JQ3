@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>jquery 3</title>
+	<script type="text/javascript">
+		function func()
+		{
+			var x= document.getElementById("fname").value;
+			var y=document.getElementById("lname").value;
+			if(x== ""||y== "")
+				alert("Please fill all the fields.");
+
+		}
+	</script>
+</head>
+<body>
+First name:<br>
+<input type="text" placeholder="Mickey" id="fname"><br>
+Last name:<br>
+<input type="text" placeholder="Mouse" id="lname"><br><br>
+<button onclick="func()">Submit</button>
+</body>
+</html>
